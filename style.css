@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%; 
+  color: #3B3B3B;
 }
 .round-button a {
   text-decoration: none;  
@@ -33,6 +34,7 @@ body {
   font-size: 16px; 
   text-align: center;
   display: block;  
+  color: #3B3B3B;
 }
 
 .round-button a:hover {
@@ -49,9 +51,11 @@ body {
 h1 {
 font-family: Lucida Handwriting;
 font-size: 42px;
+color: #3B3B3B;
 }
 h2 {
 font-family: monospace;
+color: #3B3B3B;
 }
 h3 {
 font-family: monospace;
@@ -61,11 +65,13 @@ color: #D9D9D9;
   max-width: 800px;
   margin: 0 auto;
   padding: 30px 15px;
+  color: #3B3B3B;
 }
 
 #skills h2 {
   text-align: center;
   margin-bottom: 25px;
+  color: #3B3B3B;
 }
 
 #skills h3 {
@@ -78,4 +84,5 @@ color: #D9D9D9;
   margin: 0 0 15px 0;
   line-height: 1.6;
 }
+
 
