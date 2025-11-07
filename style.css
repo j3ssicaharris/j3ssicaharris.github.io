@@ -1,13 +1,13 @@
 :root {
     --bg-color: #202020;
     --text-color: #FFFFFF;
-    --primary-color: #FF6F61; /* Accent color for buttons */
-    --hover-color: #E5503B;   /* Darker shade on hover */
-    --link-color: #FFD166;     /* Links in text */
-    --link-hover-color: #F4A261;
+    --primary-color: #D261FF; /* Accent color for buttons */
+    --hover-color: #421D56;   /* Darker shade on hover */
+    --link-color: #E5F6E8;     /* Links in text */
+    --link-hover-color: #421D56;
     --middle-bg: #F0E5F6;      /* Slightly lighter purple for sections */
     --heading-color: #FFFFFF;  /* White headings on dark background */
-    --subheading-color: #FFD166;
+    --subheading-color: ##000000;
     --font-mono: monospace;
     --font-handwriting: 'Lucida Handwriting', cursive;
 }
@@ -31,6 +31,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    text-align: center;
 }
 
 /* Links */
@@ -57,7 +58,7 @@ a:hover {
     color: var(--text-color);
     border: none;
     font-family: var(--font-mono);
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -70,7 +71,7 @@ a:hover {
     width: 100%;
     text-align: center;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Containers */
@@ -84,13 +85,13 @@ a:hover {
 
 /* Headings */
 h1, h2, h3 {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     text-align: center;
 }
 
 h1 {
     font-family: var(--font-handwriting);
-    font-size: 32px;
+    font-size: 30px;
     color: var(--heading-color);
 }
 
@@ -116,7 +117,7 @@ h3 {
 }
 
 #skills p {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -138,7 +139,7 @@ footer {
 footer .social-icons {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 24px;
     margin: 10px 0;
 }
 
@@ -202,3 +203,4 @@ footer img {
         font-size: 13px;
     }
 }
+
