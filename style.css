@@ -36,7 +36,6 @@ body {
   font-size: 16px; 
   text-align: center;
   display: block;  
-  color: #3B3B3B;
 }
 
 .round-button a:hover {
@@ -91,6 +90,12 @@ color: #D9D9D9;
   font-size: 30px;
   line-height: 1.6;
 }
+a {
+  text-decoration: none;  
+  color: white;  
+  text-align: center;
+}
+
 
 
 
