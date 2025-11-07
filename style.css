@@ -93,7 +93,7 @@ h1, h2, h3 {
 h1 {
     font-family: var(--font-handwriting);
     font-size: 30px;
-    color: var(--heading-color);
+    color: black;
 }
 
 h2 {
@@ -204,5 +204,6 @@ footer img {
         font-size: 13px;
     }
 }
+
 
 
