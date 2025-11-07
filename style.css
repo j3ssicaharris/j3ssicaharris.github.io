@@ -207,6 +207,15 @@ footer img {
         font-size: 13px;
     }
 }
+.middle h1,
+.middle h2,
+.middle h3,
+.middle p,
+.middle a,
+.middle li {
+  color: black !important;
+}
+
 
 
 
