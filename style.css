@@ -2,6 +2,7 @@ body {
   background-color: #202020;
   color: white;
   font-family: monospace;
+  font-size: 24px;
 }
 .round-button {
   text-align: center;
@@ -12,7 +13,7 @@ body {
   color: white;
   border: none;
   font-family: monospace;
-  font-size: 20px; 
+  font-size: 30px; 
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -56,10 +57,12 @@ color: #3B3B3B;
 }
 h2 {
 font-family: monospace;
+font-size: 30px;
 color: #3B3B3B;
 }
 h3 {
 font-family: monospace;
+font-size: 25px;
 color: #D9D9D9;
 }
 #skills {
@@ -72,19 +75,23 @@ color: #D9D9D9;
 #skills h2 {
   text-align: center;
   margin-bottom: 25px;
+  font-size: 30px;
   color: #3B3B3B;
 }
 
 #skills h3 {
   margin-top: 20px;
+  font-size: 25px;
   margin-bottom: 5px;
   color: #3B3B3B;
 }
 
 #skills p {
   margin: 0 0 15px 0;
+  font-size: 30px;
   line-height: 1.6;
 }
+
 
 
 
