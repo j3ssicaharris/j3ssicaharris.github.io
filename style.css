@@ -1,6 +1,7 @@
 body {
   background-color: #202020;
   color: white;
+  font-family: monospace;
 }
 .round-button {
   text-align: center;
@@ -53,5 +54,27 @@ h2 {
 font-family: monospace;
 }
 h3 {
+font-family: monospace;
+color: #D9D9D9;
+}
+#skills {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
 
+#skills h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#skills h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #4CAF50; /* optional color accent */
+}
+
+#skills p {
+  margin: 0 0 15px 0;
+  line-height: 1.6;
 }
