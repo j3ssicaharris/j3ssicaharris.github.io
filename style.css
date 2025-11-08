@@ -32,6 +32,7 @@ img {
     height: auto;
     display: block;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Links */
@@ -216,6 +217,7 @@ footer img {
 .middle * {
   color: #000 !important;
 }
+
 
 
 
