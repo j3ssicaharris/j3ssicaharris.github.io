@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;700&family=Press+Start+2P&display=swap');
+
+.hero-section {
+  /* background gradient: top purple → light pink */
+  background: linear-gradient(to bottom, #d675f1, #f5d4ff);
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh; /* full-screen height */
+}
+
+/* Container for text */
+.hero-content {
+  text-align: center;
+}
+
+/* ===== Logo Text ===== */
+.hero-section .logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: white;               /* change text color to white */
+  -webkit-text-stroke: none;  /* remove black outline */
+  text-shadow: 0 0 5px rgba(0,0,0,0.7); /* subtle dark glow for contrast */
+  position: relative;
+}
+
+
+/* "J" (normal bold) */
+.hero-section .logo .first {
+  display: inline-block;
+  font-weight: 900;
+}
+
+/* "H" (script font) */
+.hero-section .logo .script {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  position: relative;
+  top: 10px;
+}
+
+/* "A" and "S" (pixel/glitch font) */
+.hero-section .logo .glitch {
+  display: inline-block;
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  top: -5px;
+}
+
+/* ===== Subtitle ===== */
+.hero-section .subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #3a3a3a;
+}
 :root {
     --bg-color: #202020;
     --text-color: #FFFFFF;
@@ -217,6 +279,7 @@ footer img {
 .middle * {
   color: #000 !important;
 }
+
 
 
 
